@@ -1,6 +1,7 @@
-'use strict';
 import '../styles/style.scss';
+import { burger, scroll } from './modules/main';
 
-window.addEventListener('DomContentLoaded', () => {
-    
+window.addEventListener('DOMContentLoaded', () => {
+    burger();
+    scroll();
 });
